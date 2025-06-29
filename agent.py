@@ -1,9 +1,10 @@
+
 import os
 from dotenv import load_dotenv
 load_dotenv()  # Loads environment variables from .env file
 
 from langchain.agents import initialize_agent, Tool
-from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 
 from services.image_db import list_images_between
 from services.yolo_detector import detect_cars
