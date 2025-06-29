@@ -1,7 +1,7 @@
 
-# import os
-# from dotenv import load_dotenv
-# load_dotenv()  # Loads environment variables from .env file
+import os
+from dotenv import load_dotenv
+load_dotenv()  # Loads environment variables from .env file
 
 from langchain.agents import initialize_agent, Tool
 from langchain_community.llms import OpenAI
